@@ -1,0 +1,14 @@
+package test;
+
+import dao.InputInstance;
+import entity.Table;
+
+public class TestDao {
+	
+	public static void main(String[] args) {
+		//Table t = InputInstance.getInstance("files/inst01.in");
+		Table t= InputInstance.getInstance("C:\\Users\\VLN-000159\\OneDrive\\Área de Trabalho\\Unip_IA\\IAHoka\\src\\files/inst00");
+		System.err.println(t);
+	}
+
+}

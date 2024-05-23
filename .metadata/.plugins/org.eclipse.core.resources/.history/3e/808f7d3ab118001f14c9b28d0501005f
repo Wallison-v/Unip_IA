@@ -1,0 +1,5 @@
+package entity.generic;
+
+public class PriorityStateQueue {
+
+}
